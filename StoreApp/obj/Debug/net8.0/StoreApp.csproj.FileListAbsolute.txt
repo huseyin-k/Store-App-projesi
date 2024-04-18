@@ -25,3 +25,5 @@ C:\Users\User\Desktop\MVC1\Store\StoreApp\obj\Debug\net8.0\StoreApp.genruntimeco
 C:\Users\User\Desktop\MVC1\Store\StoreApp\obj\Debug\net8.0\ref\StoreApp.dll
 C:\Users\User\Desktop\MVC1\Store\StoreApp\obj\Debug\net8.0\StoreApp.RazorAssemblyInfo.cache
 C:\Users\User\Desktop\MVC1\Store\StoreApp\obj\Debug\net8.0\StoreApp.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\MVC1\Store\StoreApp\obj\Debug\net8.0\StoreApp.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\MVC1\Store\StoreApp\obj\Debug\net8.0\StoreApp.sourcelink.json
