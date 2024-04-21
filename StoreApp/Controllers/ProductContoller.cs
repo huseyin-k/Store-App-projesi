@@ -9,7 +9,6 @@ namespace StoreApp.Controllers
         {
             return new List<Product>();
             {
-               new Product(){ ProductId = 1,ProductName="Computer",Price=5};
             };
         }
     }
