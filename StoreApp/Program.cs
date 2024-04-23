@@ -15,8 +15,8 @@ app.UseHttpsRedirection();
 app.UseRouting();
 
 app.MapAreaControllerRoute(
-    name: "default",
-    areaName: "MyArea", // areaName deðeri
+	name: "default",
+    areaName: "Admin", // areaName deðeri
     pattern: "{controller=Home}/{action=Index}/{id?}"
 );
 
