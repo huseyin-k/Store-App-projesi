@@ -3,10 +3,8 @@
     "",
     "\\StoreApp",
     "\\StoreApp\\Controllers",
-    "\\StoreApp\\Models",
-    "\\StoreApp\\Views",
-    "\\StoreApp\\Views\\Home"
+    "\\StoreApp\\Models"
   ],
-  "SelectedNode": "\\StoreApp\\Controllers\\HomeController.cs",
+  "SelectedNode": "\\StoreApp\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
