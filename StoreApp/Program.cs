@@ -1,4 +1,4 @@
-
+ï»¿
 using Microsoft.EntityFrameworkCore;
 using StoreApp.Models;
 
@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<RepositoryContext>(options =>
 {
-    options.UseSqlite(builder.Configuration.GetConnectionString("sqlconnection"));
+	options.UseSqlite(builder.Configuration.GetConnectionString("sqlconnection"));
 });
 
 var app = builder.Build();
@@ -14,10 +14,8 @@ var app = builder.Build();
 app.UseHttpsRedirection();
 app.UseRouting();
 
-app.MapAreaControllerRoute(
+app.MapControllerRoute(
 	name: "default",
-    areaName: "Admin", // areaName deðeri
-    pattern: "{controller=Home}/{action=Index}/{id?}"
-);
+	pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();

@@ -10,7 +10,7 @@ using StoreApp.Models;
 namespace StoreApp.Migrations
 {
     [DbContext(typeof(RepositoryContext))]
-    [Migration("20240418201930_init")]
+    [Migration("20240423174043_init")]
     partial class init
     {
         /// <inheritdoc />
@@ -34,6 +34,38 @@ namespace StoreApp.Migrations
                     b.HasKey("ProductId");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            ProductId = 1,
+                            Price = 17000m,
+                            ProductName = "Computer"
+                        },
+                        new
+                        {
+                            ProductId = 2,
+                            Price = 1000m,
+                            ProductName = "Keybord"
+                        },
+                        new
+                        {
+                            ProductId = 3,
+                            Price = 500m,
+                            ProductName = "Mouse"
+                        },
+                        new
+                        {
+                            ProductId = 4,
+                            Price = 7000m,
+                            ProductName = "Monitör"
+                        },
+                        new
+                        {
+                            ProductId = 5,
+                            Price = 1500m,
+                            ProductName = "Deck"
+                        });
                 });
 #pragma warning restore 612, 618
         }
