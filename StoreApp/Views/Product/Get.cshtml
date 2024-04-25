@@ -1,8 +1,8 @@
-﻿@model List<StoreApp.Models.Product>
-
+﻿@model StoreApp.Models.Product
 
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,16 +10,9 @@
 	<title>Document</title>
 </head>
 <body>
-	@foreach (StoreApp.Models.Product prd in Model)
-	{
-		<div>
-			<h3>@prd.ProductName</h3>
-			<p>@prd.Price</p>
-			<p>
-				<a href="/Product/Get/@prd.ProductId">Get Details</a>
-			</p>
-		</div>
-	}
+	<h3>@Model.ProductName</h3>
+	<p>@Model.Price</p>
+	<a href="/Product">Products</a>
 </body>
 </html>
 
