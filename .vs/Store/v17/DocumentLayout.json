@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\MVC1\\Store\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\views\\product\\get.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\product\\get.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\controllers\\productcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,32 +62,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "StoreApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "StoreApp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T18:06:32.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "StoreApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "StoreApp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T17:59:23.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "StoreApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "StoreApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T17:56:29.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Get.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Product\\Get.cshtml",
               "RelativeDocumentMoniker": "StoreApp\\Views\\Product\\Get.cshtml",
               "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Product\\Get.cshtml",
               "RelativeToolTip": "StoreApp\\Views\\Product\\Get.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-04-24T18:19:34.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "StoreApp\\Views\\Product\\Index.cshtml",
               "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "StoreApp\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T17:23:59.616Z"
+              "WhenOpened": "2024-04-23T17:23:59.616Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ProductContoller.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Controllers\\ProductContoller.cs",
               "RelativeDocumentMoniker": "StoreApp\\Controllers\\ProductContoller.cs",
@@ -87,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\appsettings.json",
               "RelativeDocumentMoniker": "StoreApp\\appsettings.json",
@@ -99,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "RepositoryContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Models\\RepositoryContext.cs",
               "RelativeDocumentMoniker": "StoreApp\\Models\\RepositoryContext.cs",
@@ -111,7 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Models\\Product.cs",
               "RelativeDocumentMoniker": "StoreApp\\Models\\Product.cs",
@@ -123,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Program.cs",
               "RelativeDocumentMoniker": "StoreApp\\Program.cs",
