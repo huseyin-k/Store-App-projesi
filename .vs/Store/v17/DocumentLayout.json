@@ -3,44 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\MVC1\\Store\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\views\\product\\_productcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\product\\_productcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\views\\product\\get.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\product\\get.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\controllers\\productcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\controllers\\productcontoller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\models\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\models\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,127 +31,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "StoreApp\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "StoreApp\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-25T18:06:32.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "StoreApp\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "StoreApp\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-25T17:59:23.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "StoreApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "StoreApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-25T17:56:29.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Get.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Product\\Get.cshtml",
-              "RelativeDocumentMoniker": "StoreApp\\Views\\Product\\Get.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Product\\Get.cshtml",
-              "RelativeToolTip": "StoreApp\\Views\\Product\\Get.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-24T18:19:34.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "StoreApp\\Views\\Product\\Index.cshtml",
               "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "StoreApp\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-23T17:23:59.616Z",
+              "WhenOpened": "2024-04-25T18:49:04.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductContoller.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Controllers\\ProductContoller.cs",
-              "RelativeDocumentMoniker": "StoreApp\\Controllers\\ProductContoller.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Controllers\\ProductContoller.cs",
-              "RelativeToolTip": "StoreApp\\Controllers\\ProductContoller.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBkAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:22:49.727Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\appsettings.json",
-              "RelativeDocumentMoniker": "StoreApp\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\appsettings.json",
-              "RelativeToolTip": "StoreApp\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-18T19:32:43.566Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RepositoryContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Models\\RepositoryContext.cs",
-              "RelativeDocumentMoniker": "StoreApp\\Models\\RepositoryContext.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Models\\RepositoryContext.cs",
-              "RelativeToolTip": "StoreApp\\Models\\RepositoryContext.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwBMAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T20:16:29.003Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "StoreApp\\Models\\Product.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Models\\Product.cs",
-              "RelativeToolTip": "StoreApp\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T16:52:03.018Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Program.cs",
-              "RelativeDocumentMoniker": "StoreApp\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Program.cs",
-              "RelativeToolTip": "StoreApp\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-20T16:32:45.405Z"
+              "DocumentIndex": 0,
+              "Title": "_ProductCard.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Product\\_ProductCard.cshtml",
+              "RelativeDocumentMoniker": "StoreApp\\Views\\Product\\_ProductCard.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Product\\_ProductCard.cshtml",
+              "RelativeToolTip": "StoreApp\\Views\\Product\\_ProductCard.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-25T18:44:24.432Z",
+              "EditorCaption": ""
             }
           ]
         }
