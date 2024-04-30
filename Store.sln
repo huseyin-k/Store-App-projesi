@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoreApp", "StoreApp\StoreA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{47DD846F-46C3-4079-8C18-D8DC1317A59E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{7C874446-F120-40E7-B287-3CB0B08A655E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{47DD846F-46C3-4079-8C18-D8DC1317A59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47DD846F-46C3-4079-8C18-D8DC1317A59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47DD846F-46C3-4079-8C18-D8DC1317A59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C874446-F120-40E7-B287-3CB0B08A655E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C874446-F120-40E7-B287-3CB0B08A655E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C874446-F120-40E7-B287-3CB0B08A655E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C874446-F120-40E7-B287-3CB0B08A655E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
