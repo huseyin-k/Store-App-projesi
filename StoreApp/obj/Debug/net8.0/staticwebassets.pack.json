@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\html\\Error.html"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\images\\iceCream.jpg",
+      "PackagePath": "staticwebassets\\images\\iceCream.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

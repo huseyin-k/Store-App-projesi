@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bj/HktWGKsBvArUlV85UOM+CcRb5duirH48mo9812m0=",
+  "Hash": "y2F4MqbYZQWqLto16Xe+k/uMRK2V6cI980rx7rHTSVM=",
   "Source": "StoreApp",
   "BasePath": "_content/StoreApp",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\Error.html"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\images\\iceCream.jpg",
+      "SourceId": "StoreApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\",
+      "BasePath": "_content/StoreApp",
+      "RelativePath": "images/iceCream.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\iceCream.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\js\\site.js",
