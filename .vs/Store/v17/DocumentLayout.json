@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\MVC1\\Store\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7C874446-F120-40E7-B287-3CB0B08A655E}|Repositories\\Repositories.csproj|c:\\users\\user\\desktop\\mvc1\\store\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C874446-F120-40E7-B287-3CB0B08A655E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C874446-F120-40E7-B287-3CB0B08A655E}|Repositories\\Repositories.csproj|c:\\users\\user\\desktop\\mvc1\\store\\repositories\\contracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C874446-F120-40E7-B287-3CB0B08A655E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\contracts\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C874446-F120-40E7-B287-3CB0B08A655E}|Repositories\\Repositories.csproj|c:\\users\\user\\desktop\\mvc1\\store\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C874446-F120-40E7-B287-3CB0B08A655E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C874446-F120-40E7-B287-3CB0B08A655E}|Repositories\\Repositories.csproj|c:\\users\\user\\desktop\\mvc1\\store\\repositories\\contracts\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C874446-F120-40E7-B287-3CB0B08A655E}|Repositories\\Repositories.csproj|solutionrelative:repositories\\contracts\\irepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|c:\\users\\user\\desktop\\mvc1\\store\\storeapp\\migrations\\20240430163921_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A595F937-7294-44F6-A7E7-995732630AF8}|StoreApp\\StoreApp.csproj|solutionrelative:storeapp\\migrations\\20240430163921_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -86,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -98,7 +114,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T09:15:43.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\Repositories\\Contracts\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Contracts\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\Repositories\\Contracts\\IProductRepository.cs",
+              "RelativeToolTip": "Repositories\\Contracts\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T18:04:41.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\Repositories\\RepositoryBase.cs",
+              "RelativeToolTip": "Repositories\\RepositoryBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T17:09:44.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\Repositories\\Contracts\\IRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Repositories\\Contracts\\IRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\Repositories\\Contracts\\IRepositoryBase.cs",
+              "RelativeToolTip": "Repositories\\Contracts\\IRepositoryBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T17:05:05.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "20240430163921_init.Designer.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Migrations\\20240430163921_init.Designer.cs",
               "RelativeDocumentMoniker": "StoreApp\\Migrations\\20240430163921_init.Designer.cs",
@@ -106,25 +174,24 @@
               "RelativeToolTip": "StoreApp\\Migrations\\20240430163921_init.Designer.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T16:45:41.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T16:45:41.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "20240430163921_init.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Migrations\\20240430163921_init.cs",
               "RelativeDocumentMoniker": "StoreApp\\Migrations\\20240430163921_init.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Migrations\\20240430163921_init.cs",
               "RelativeToolTip": "StoreApp\\Migrations\\20240430163921_init.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T16:45:33.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "RepositoryContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\Repositories\\RepositoryContext.cs",
               "RelativeDocumentMoniker": "Repositories\\RepositoryContext.cs",
@@ -132,12 +199,11 @@
               "RelativeToolTip": "Repositories\\RepositoryContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T16:21:21.981Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T16:21:21.981Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "StoreApp\\Controllers\\ProductController.cs",
@@ -145,12 +211,11 @@
               "RelativeToolTip": "StoreApp\\Controllers\\ProductController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T17:18:06.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T17:18:06.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Program.cs",
               "RelativeDocumentMoniker": "StoreApp\\Program.cs",
@@ -158,12 +223,11 @@
               "RelativeToolTip": "StoreApp\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T10:01:24.915Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T10:01:24.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "StoreApp\\Views\\_ViewImports.cshtml",
@@ -171,12 +235,11 @@
               "RelativeToolTip": "StoreApp\\Views\\_ViewImports.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-30T09:03:50.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T09:03:50.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Get.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Product\\Get.cshtml",
               "RelativeDocumentMoniker": "StoreApp\\Views\\Product\\Get.cshtml",
@@ -188,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "StoreApp\\Views\\Product\\Index.cshtml",
@@ -200,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "StoreApp\\Controllers\\HomeController.cs",
@@ -208,12 +271,11 @@
               "RelativeToolTip": "StoreApp\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAuwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T08:55:53.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-30T08:55:53.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "_ProductCard.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Product\\_ProductCard.cshtml",
               "RelativeDocumentMoniker": "StoreApp\\Views\\Product\\_ProductCard.cshtml",
@@ -225,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\Entities\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Entities\\Models\\Product.cs",
@@ -237,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\appsettings.json",
               "RelativeDocumentMoniker": "StoreApp\\appsettings.json",
@@ -249,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "_Navbar.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Shared\\_Navbar.cshtml",
               "RelativeDocumentMoniker": "StoreApp\\Views\\Shared\\_Navbar.cshtml",
@@ -261,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "StoreApp\\Views\\Shared\\_Layout.cshtml",
@@ -273,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "StoreApp\\Views\\_ViewStart.cshtml",
@@ -285,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "StoreApp\\Views\\Home\\Index.cshtml",
@@ -297,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Error.html",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\html\\Error.html",
               "RelativeDocumentMoniker": "StoreApp\\wwwroot\\html\\Error.html",
@@ -309,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "libman.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\libman.json",
               "RelativeDocumentMoniker": "StoreApp\\libman.json",
@@ -321,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "StoreApp.csproj",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\StoreApp.csproj",
               "RelativeDocumentMoniker": "StoreApp\\StoreApp.csproj",
