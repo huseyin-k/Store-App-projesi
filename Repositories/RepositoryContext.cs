@@ -1,11 +1,13 @@
 ﻿using Entities.Models;
 using Microsoft.EntityFrameworkCore;
+using Repositories.Config;
+using System.Reflection;
 
 namespace Repositories
 {
 	public class RepositoryContext : DbContext
 	{
-		public DbSet<Product> Products { get; set; }
+		public DbSet<ProductDtoForInsteriton> Products { get; set; }
 		public DbSet<Category> Categories { get; set; }
 
 
@@ -18,11 +20,11 @@ namespace Repositories
 		{
 			base.OnModelCreating(modelBuilder);
 
-			modelBuilder.Entity<Category>()
-				.HasData(
-				new Category() { CategoryId = 1, CategoryName = "Book" },
-				new Category() { CategoryId = 2, CategoryName = "Electronic" }
-				);
+			//modelBuilder.ApplyConfiguration(new ProductConfig());
+			//modelBuilder.ApplyConfiguration(new CategoryConfig());
+
+			modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
 		}
 	}
 }

@@ -1,5 +1,6 @@
 ﻿using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Services.Contracts;
 
 namespace StoreApp.Areas.Admin.Controllers
@@ -21,11 +22,17 @@ namespace StoreApp.Areas.Admin.Controllers
 		}
 		public IActionResult create()
 		{
+			    ViewBag.Categories = new SelectList(_manager.CategoryService.GetAllCategories(false),
+				"CategoryId", 
+				"CategoryName", "1");
+
+
+
 			return View();
 		}
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public IActionResult Create([FromForm] Product product)
+		public IActionResult Create([FromForm] ProductDtoForInsteriton product)
 		{
 			if (ModelState.IsValid)
 			{
@@ -34,7 +41,7 @@ namespace StoreApp.Areas.Admin.Controllers
 			}
 			return View();
 		}
-		public IActionResult Update([FromRoute(Name ="id")] int id )
+		public IActionResult Update([FromRoute(Name = "id")] int id)
 		{
 			var model = _manager.ProductService.GetOneProduct(id, false);
 			return View(model);
@@ -42,19 +49,19 @@ namespace StoreApp.Areas.Admin.Controllers
 
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public IActionResult Update(Product product)
+		public IActionResult Update(ProductDtoForInsteriton product)
 		{
-			if(ModelState.IsValid)
+			if (ModelState.IsValid)
 			{
 				_manager.ProductService.UpdateOneProduct(product);
-			return RedirectToAction("Index");
+				return RedirectToAction("Index");
 
 			}
 			return View();
-			
+
 		}
 		[HttpGet]
-		public IActionResult Delete([FromRoute(Name ="id")]int id) 
+		public IActionResult Delete([FromRoute(Name = "id")] int id)
 		{
 			_manager.ProductService.DeleteOneProduct(id);
 			return RedirectToAction("Index");

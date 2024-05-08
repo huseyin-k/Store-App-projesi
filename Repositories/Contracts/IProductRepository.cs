@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace Repositories.Contracts
 {
-	public interface IProductRepository : IRepositoryBase<Product>
+	public interface IProductRepository : IRepositoryBase<ProductDtoForInsteriton>
 	{
-		IQueryable<Product> GetAllProducts(bool trackChanges);
-		Product? GetOneProduct(int id, bool trackChanges);
+		IQueryable<ProductDtoForInsteriton> GetAllProducts(bool trackChanges);
+		ProductDtoForInsteriton? GetOneProduct(int id, bool trackChanges);
 
-		void CreateOneProduct(Product product);
-		void DeleteOneProduct(Product product);
+		void CreateOneProduct(ProductDtoForInsteriton product);
+		void DeleteOneProduct(ProductDtoForInsteriton product);
 	}
 }

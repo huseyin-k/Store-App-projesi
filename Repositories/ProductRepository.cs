@@ -8,25 +8,25 @@ using System.Threading.Tasks;
 
 namespace Repositories
 {
-	public class ProductRepository : RepositoryBase<Product>, IProductRepository
+	public class ProductRepository : RepositoryBase<ProductDtoForInsteriton>, IProductRepository
 	{
 		public ProductRepository(RepositoryContext context) : base(context)
 		{
 		}
 
-		public void CreateOneProduct(Product product)
+		public void CreateOneProduct(ProductDtoForInsteriton product)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void CreateProduct(Product product) => Create(product);
+		public void CreateProduct(ProductDtoForInsteriton product) => Create(product);
 
-		public void DeleteOneProduct(Product product) => Remowe(product);
+		public void DeleteOneProduct(ProductDtoForInsteriton product) => Remowe(product);
 
 
-		public IQueryable<Product> GetAllProducts(bool trackChanges) => FindAll(trackChanges); 
+		public IQueryable<ProductDtoForInsteriton> GetAllProducts(bool trackChanges) => FindAll(trackChanges); 
 
-		public Product? GetOneProduct(int id, bool trackChanges)
+		public ProductDtoForInsteriton? GetOneProduct(int id, bool trackChanges)
 		{
 			return FindByCondition(p=> p.ProductId.Equals(id) ,trackChanges);
 		}

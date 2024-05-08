@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Product>
+﻿@model IEnumerable<ProductDtoForInsteriton>
 <div class="text-center">
 	<div class="display-6">Products</div>
 
@@ -19,7 +19,7 @@
 			</tr>
 		</thead>
 		<tbody>
-			@foreach (Product prd in Model)
+			@foreach (ProductDtoForInsteriton prd in Model)
 			{
 				<tr>
 					<td>@prd.ProductId</td>

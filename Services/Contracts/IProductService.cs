@@ -9,10 +9,10 @@ namespace Services.Contracts
 {
 	public interface IProductService
 	{
-		IEnumerable<Product> GetAllProducts (bool trackChanges);
-		Product? GetOneProduct(int id, bool trackChanges);
-		void CreateProduct(Product product);
-		void UpdateOneProduct(Product product);
+		IEnumerable<ProductDtoForInsteriton> GetAllProducts (bool trackChanges);
+		ProductDtoForInsteriton? GetOneProduct(int id, bool trackChanges);
+		void CreateProduct(ProductDtoForInsteriton product);
+		void UpdateOneProduct(ProductDtoForInsteriton product);
 		void DeleteOneProduct(int id);
 	}
 }

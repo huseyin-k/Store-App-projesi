@@ -18,7 +18,7 @@ namespace Services
 			_manager = manager;
 		}
 
-		public void CreateProduct(Product product)
+		public void CreateProduct(ProductDtoForInsteriton product)
 		{
 			_manager.Product.Create(product);
 			_manager.Save();
@@ -26,7 +26,7 @@ namespace Services
 
 		public void DeleteOneProduct(int id)
 		{
-			Product	 product = GetOneProduct(id, false);
+			ProductDtoForInsteriton	 product = GetOneProduct(id, false);
 			if(product is not null)
 			{
 				_manager.Product.DeleteOneProduct(product);
@@ -34,12 +34,12 @@ namespace Services
 			}
 		}
 
-		public IEnumerable<Product> GetAllProducts(bool trackChanges)
+		public IEnumerable<ProductDtoForInsteriton> GetAllProducts(bool trackChanges)
 		{
 			return _manager.Product.GetAllProducts(trackChanges);
 		}
 
-		public Product? GetOneProduct(int id, bool trackChanges)
+		public ProductDtoForInsteriton? GetOneProduct(int id, bool trackChanges)
 		{
 			var Product = _manager.Product.GetOneProduct(id, trackChanges);
 			if (Product is null)
@@ -47,7 +47,7 @@ namespace Services
 			return Product;	
 		}
 
-		public void UpdateOneProduct(Product product)
+		public void UpdateOneProduct(ProductDtoForInsteriton product)
 		{
 			var entity =_manager.Product.GetOneProduct(product.ProductId, true);
 			entity.ProductName = product.ProductName;
