@@ -46,16 +46,6 @@ namespace StoreApp.Areas.Admin.Controllers
 			var model = _manager.ProductService.GetOneProduct(id, false);
 			return View(model);
 		}
-
-		[HttpPost]
-		[ValidateAntiForgeryToken]
-		public IActionResult Update(ProductDtoForInsteriton product)
-		{
-			if (ModelState.IsValid)
-			{
-				_manager.ProductService.UpdateOneProduct(product);
-				return RedirectToAction("Index");
-
 			}
 			return View();
 
