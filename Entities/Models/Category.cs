@@ -10,7 +10,7 @@ namespace Entities.Models
 	{
 		public int CategoryId { get; set; }
 		public String? CategoryName { get; set; } = String.Empty;
-		public ICollection<ProductDtoForInsteriton> products { get; set;}
+		public ICollection<Product> products { get; set;}
 
 	}
 }

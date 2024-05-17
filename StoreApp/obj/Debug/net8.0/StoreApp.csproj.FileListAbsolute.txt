@@ -258,3 +258,5 @@ C:\Users\User\Desktop\MVC1\Store\StoreApp\bin\Debug\net8.0\Repositories.dll
 C:\Users\User\Desktop\MVC1\Store\StoreApp\bin\Debug\net8.0\Repositories.pdb
 C:\Users\User\Desktop\MVC1\store\StoreApp\bin\Debug\net8.0\Services.dll
 C:\Users\User\Desktop\MVC1\store\StoreApp\bin\Debug\net8.0\Services.pdb
+C:\Users\User\Desktop\MVC1\Store\StoreApp\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\User\Desktop\MVC1\Store\StoreApp\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Dtos
 {
-	public record ProductDtoForInsertion :ProductDto
+	public record ProductDtoForInsertion : ProductDto
 	{
 	}
 }

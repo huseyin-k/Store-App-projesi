@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.Dtos;
+using Entities.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,11 @@ namespace Services.Contracts
 {
 	public interface IProductService
 	{
-		IEnumerable<ProductDtoForInsteriton> GetAllProducts (bool trackChanges);
-		ProductDtoForInsteriton? GetOneProduct(int id, bool trackChanges);
-		void CreateProduct(ProductDtoForInsteriton product);
-		void UpdateOneProduct(ProductDtoForInsteriton product);
+		IEnumerable<Product> GetAllProducts (bool trackChanges);
+		Product? GetOneProduct(int id, bool trackChanges);
+		void CreateProduct(ProductDtoForInsertion productDto);
+		void UpdateOneProduct(ProductDtoForUpdate productDto);
 		void DeleteOneProduct(int id);
+		ProductDtoForUpdate GetOneProductForUpdate(int id, bool trakcChanges);
 	}
 }

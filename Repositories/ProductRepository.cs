@@ -1,4 +1,5 @@
-﻿using Entities.Models;
+﻿using Entities.Dtos;
+using Entities.Models;
 using Repositories.Contracts;
 using System;
 using System.Collections.Generic;
@@ -8,28 +9,38 @@ using System.Threading.Tasks;
 
 namespace Repositories
 {
-	public class ProductRepository : RepositoryBase<ProductDtoForInsteriton>, IProductRepository
+	public class ProductRepository : RepositoryBase<Product>, IProductRepository
 	{
 		public ProductRepository(RepositoryContext context) : base(context)
 		{
 		}
 
-		public void CreateOneProduct(ProductDtoForInsteriton product)
+		
+
+		public void CreateOneProduct(Product product)
 		{
 			throw new NotImplementedException();
 		}
 
-		public void CreateProduct(ProductDtoForInsteriton product) => Create(product);
+		
 
-		public void DeleteOneProduct(ProductDtoForInsteriton product) => Remowe(product);
+		public void CreateProduct(Product product) => Create(product);
 
+		public void DeleteOneProduct(Product product) => Remowe(product);
 
-		public IQueryable<ProductDtoForInsteriton> GetAllProducts(bool trackChanges) => FindAll(trackChanges); 
+		public void DeleteOneProduct(ProductDtoForInsertion product)
+		{
+			throw new NotImplementedException();
+		}
 
-		public ProductDtoForInsteriton? GetOneProduct(int id, bool trackChanges)
+		public IQueryable<Product> GetAllProducts(bool trackChanges) => FindAll(trackChanges); 
+
+		public Product? GetOneProduct(int id, bool trackChanges)
 		{
 			return FindByCondition(p=> p.ProductId.Equals(id) ,trackChanges);
 		}
-	
+
+		public void UpdateOneProduct(Product entity) => Update(entity);
+		
 	}
 } 

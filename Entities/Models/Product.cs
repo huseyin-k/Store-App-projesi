@@ -2,7 +2,7 @@
 
 namespace Entities.Models;
 
-public class ProductDtoForInsteriton
+public class Product
 {
 
 	public int ProductId { get; set; }
