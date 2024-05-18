@@ -9,6 +9,18 @@
       "PackagePath": "staticwebassets\\html\\Error.html"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\images\\Ekran Görüntüsü (1).png",
+      "PackagePath": "staticwebassets\\images\\Ekran Görüntüsü (1).png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\images\\Ekran Görüntüsü (17).png",
+      "PackagePath": "staticwebassets\\images\\Ekran Görüntüsü (17).png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\images\\huseyin.jpg",
+      "PackagePath": "staticwebassets\\images\\huseyin.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\images\\iceCream.jpg",
       "PackagePath": "staticwebassets\\images\\iceCream.jpg"
     },

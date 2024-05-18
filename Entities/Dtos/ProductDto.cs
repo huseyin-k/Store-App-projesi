@@ -17,6 +17,9 @@ namespace Entities.Dtos
 
 		[Required(ErrorMessage = "price is required.")]
 		public decimal Price { get; init; }
+		public String? Summary { get; init; } = string.Empty;
+
+		public String? ImageUrl { get; set; }
 
 		public int? CategoryId { get; init; }
 		
