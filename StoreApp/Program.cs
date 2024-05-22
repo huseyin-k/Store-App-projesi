@@ -13,6 +13,7 @@ builder.Services.ConfigureDbContext(builder.Configuration);
 builder.Services.ConfigureSession();
 builder.Services.ConfigureRepositoryResgistration();
 builder.Services.ConfigureServiceResgistration();
+builder.Services.ConfigureRouting();
 
 builder.Services.AddAutoMapper(typeof(Program));
 
@@ -37,4 +38,5 @@ app.UseEndpoints(endpoints =>
 	endpoints.MapRazorPages();
 });
 app.ConfigureAndCheckMigration();
+app.ConfigureLocalization();
 app.Run();
