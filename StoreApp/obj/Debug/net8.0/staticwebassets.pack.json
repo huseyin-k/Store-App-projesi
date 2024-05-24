@@ -17,12 +17,28 @@
       "PackagePath": "staticwebassets\\images\\Ekran Görüntüsü (17).png"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\images\\hamle.jpg",
+      "PackagePath": "staticwebassets\\images\\hamle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\images\\hpmouse.jpg",
+      "PackagePath": "staticwebassets\\images\\hpmouse.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\images\\huseyin.jpg",
       "PackagePath": "staticwebassets\\images\\huseyin.jpg"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\images\\iceCream.jpg",
       "PackagePath": "staticwebassets\\images\\iceCream.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\images\\kkalem.jpg",
+      "PackagePath": "staticwebassets\\images\\kkalem.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\images\\samsung.png",
+      "PackagePath": "staticwebassets\\images\\samsung.png"
     },
     {
       "Id": "C:\\Users\\User\\Desktop\\MVC1\\Store\\StoreApp\\wwwroot\\js\\site.js",
