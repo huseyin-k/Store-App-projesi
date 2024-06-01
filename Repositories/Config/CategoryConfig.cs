@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Repositories.Config
 {
-	internal class CategoryConfig : IEntityTypeConfiguration<Category>
+	public class CategoryConfig : IEntityTypeConfiguration<Category>
 	{
 		public void Configure(EntityTypeBuilder<Category> builder)
 		{

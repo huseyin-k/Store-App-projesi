@@ -1,6 +1,6 @@
 ﻿
 
-using StoreApp.Infrastructe.Extensions;
+using StoreApp.Infrastructure.Extensions;
 
 
 
@@ -10,6 +10,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
 builder.Services.ConfigureDbContext(builder.Configuration);
+builder.Services.ConfigureIdentity();
 builder.Services.ConfigureSession();
 builder.Services.ConfigureRepositoryResgistration();
 builder.Services.ConfigureServiceResgistration();
@@ -25,6 +26,9 @@ app.UseSession();
 app.UseHttpsRedirection();
 app.UseRouting();
 
+app.UseAuthorization();
+app.UseAuthentication();
+
 app.UseEndpoints(endpoints =>
 {
 	endpoints.MapAreaControllerRoute(
@@ -37,6 +41,9 @@ app.UseEndpoints(endpoints =>
 
 	endpoints.MapRazorPages();
 });
+
+
 app.ConfigureAndCheckMigration();
 app.ConfigureLocalization();
+app.ConfigureDefaultAdminUser();
 app.Run();
