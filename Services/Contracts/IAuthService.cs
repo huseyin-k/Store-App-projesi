@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Entities.Dtos;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +12,8 @@ namespace Services.Contracts
 	{
 		IEnumerable<IdentityRole> Roles { get; }
 		IEnumerable<IdentityUser> GetAllUsers ();
+		Task<IdentityResult> CreateUser(UserDtoForCreation userDto);
+		Task<IdentityUser> GetOneUser(string userName);
+		Task Update(UserDtoForUpdate userDto);
 	}
 }
