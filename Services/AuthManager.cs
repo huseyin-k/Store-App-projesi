@@ -23,7 +23,7 @@ namespace Services
 			_mapper = mapper;
 		}
 
-		public IEnumerable<IdentityRole> Roles => 
+		public IEnumerable<IdentityRole> Roles =>
 			_roleManager.Roles;
 
 		public async Task<IdentityResult> CreateUser(UserDtoForCreation userDto)
@@ -34,13 +34,13 @@ namespace Services
 
 			if (!result.Succeeded)
 				throw new Exception("Kullanıcı oluşturulamadı.");
-			if(userDto.Roles.Count >0)
+			if (userDto.Roles.Count > 0)
 			{
 				var roleResult = await _userManager.AddToRolesAsync(user, userDto.Roles);
 				if (roleResult.Succeeded)
 					throw new Exception("Sistemin rollerle ilgili sorunları var.");
 			}
-			return result;	
+			return result;
 		}
 
 		public IEnumerable<IdentityUser> GetAllUsers()
@@ -53,24 +53,40 @@ namespace Services
 			return await _userManager.FindByNameAsync(userName);
 		}
 
+		public async Task<UserDtoForUpdate> GetOneUserForUpdate(string userName)
+		{
+			var user = await GetOneUser(userName);
+			if(user is not null)
+			{
+				var userDto = _mapper.Map<UserDtoForUpdate>(user);
+				userDto.Roles = new HashSet<string>(Roles.Select(r => r.Name).ToList());
+				userDto.UserRoles = new HashSet<string>(await _userManager.GetRolesAsync(user));
+				return userDto;
+			}
+			throw new Exception("An error occured.");
+		}
+
 		public async Task Update(UserDtoForUpdate userDto)
 		{
 			var user = await GetOneUser(userDto.UserName);
 			user.PhoneNumber = userDto.PhoneNumber;
 			user.Email = userDto.Email;
 
-			if(user is not null) 
+			if (user is not null)
 			{
 				var result = await _userManager.UpdateAsync(user);
-			}
 
-			if(userDto.Roles.Count > 0)
-			{
-				var userRoles = await _userManager.GetRolesAsync(user);
-				var r1 = await _userManager.RemoveFromRoleAsync(user, userRoles);
-				var r2 = await _userManager.AddToRoleAsync(user,userDto.Roles);
+
+				if (userDto.Roles.Count > 0)
+				{
+					var userRoles = await _userManager.GetRolesAsync(user);
+					var r1 = await _userManager.RemoveFromRolesAsync(user, userRoles);
+					var r2 = await _userManager.AddToRolesAsync(user, userDto.Roles);
+				}
+				return;
 			}
-			return;
+			throw new Exception("Sistemde kullanıcı güncellemesinde sorun var.");
+
 		}
 	}
 }
